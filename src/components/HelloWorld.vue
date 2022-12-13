@@ -1,3 +1,9 @@
+<template>
+    <div class="hello">
+        {{ msg }}
+    </div>
+</template>
+
 <script>
 export default {
     name: "HelloWorld",
@@ -6,11 +12,3 @@ export default {
     },
 }
 </script>
-
-<template>
-    <div class="hello">
-        {{ msg }}
-    </div>
-</template>
-
-<style scoped></style>
