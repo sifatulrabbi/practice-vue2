@@ -1,13 +1,13 @@
 {
-    "compilerOptions": {
-        "target": "ES2022",
-        "module": "esnext",
-        "baseUrl": "./",
-        "moduleResolution": "node",
-        "paths": {
-            "@/*": ["src/*"],
-            "@/components/*": ["src/components/*"]
-        },
-        "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
-    }
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "esnext",
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": ["src/*"],
+      "@/components/*": ["src/components/*"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  }
 }
