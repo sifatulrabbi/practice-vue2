@@ -14,14 +14,15 @@
             <button type="submit">Add Todo</button>
         </form> -->
     <DraggableContainer />
+    <EventsTestContainer />
   </div>
 </template>
 
 <script>
 // import HelloWorld from "@/components/HelloWorld.vue"
 // import TodoItem from "@/components/TodoItem.vue"
-import DraggableContainer from "./components/Draggable";
-
+import DraggableContainer from "@/components/Draggable";
+import EventsTestContainer from "@/components/EventsTest/EevntsTestContainer.vue";
 import { mapGetters, mapActions } from "vuex";
 
 export default {
@@ -30,6 +31,7 @@ export default {
     // HelloWorld,
     // TodoItem,
     DraggableContainer,
+    EventsTestContainer,
   },
   data: () => {
     return {
